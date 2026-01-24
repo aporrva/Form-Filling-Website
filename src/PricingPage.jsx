@@ -1,6 +1,7 @@
 import React from 'react'
 import NavigationPanel from "./common/NavigationPanel"
 import HeadingOfPage from './common/HeadingOfPage'
+
 import { TickIcon } from './components/Icons'
 function PricingPage() {
   return (
