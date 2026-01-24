@@ -3,10 +3,12 @@ import { LocationIcon, MailIcon, PhoneIcon, UsersIcon } from "../components/Icon
 function FooterPage() {
     return (
         <div>
-            <div className='flex flex-col md:flex-row  pt-32 pb-15 md:justify-center align-center md:align-start text-center md:text-start pl-6 pr-6 bg-slate-950 gap-6 '>
+            <div className='flex flex-col md:flex-row  pt-32 pb-15 md:justify-center align-center md:align-start text-center md:text-start pl-6 pr-6 bg-red-900 gap-6 '>
                 <div className='flex flex-col justify-start gap-3 md:w-[22%]'>
                     <div className="flex justify-center md:justify-start gap-3 ">
-                        <div className=" w-[45px] h-[45px] rounded-md flex justify-center items-center bg-sky-500"><UsersIcon stroke='#05276d' strokeWidth='2' /></div>
+                        <div className=" w-[45px] h-[45px] rounded-md flex justify-center items-center bg-sky-500">
+                            <UsersIcon stroke='#05276d' strokeWidth='2' />
+                        </div>
                         <h2 className='text-white font-bold text-[30px] '>FormFill Pro</h2>
                     </div>
                     <p className='text-gray-400'>Professional form filling service - Fast, accurate, and hassle-free. We handle all your online form submissions with care.</p>

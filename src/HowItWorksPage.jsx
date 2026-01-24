@@ -3,12 +3,12 @@ import FooterPage from './common/FooterPage'
 import NavigationPanel from './common/NavigationPanel'
 import Ready from './common/Ready'
 import { GreenTick, UsersIcon } from './components/Icons'
-import HeadingOfPage from './HeadingOfPage'
+import HeadingOfPage from './common/HeadingOfPage'
 
 function HowItWorksPage() {
     return (
         <div className='text-gray-700'>
-            <NavigationPanel />
+            
             <HeadingOfPage heading="How It Works" about="Getting your forms filled is simple and straightforward. Follow these four easy steps to save time and avoid errors." />
             <div className='flex flex-row mx-auto gap-5 items-center justify-evenly w-[1200px] pt-10 pb-10'>
                 <Steps array={["Government Forms", "Government Forms", "Government Forms", "Government Forms", "Government Forms", "Government Forms",]} icon={<UsersIcon stroke='#304adf' width='50px' height='50px' strokeWidth='2' />} about="Browse our extensive list of form categories or specify a custom form type. We handle everything from government applications to corporate forms." heading="Step 1: Select Your Form" />

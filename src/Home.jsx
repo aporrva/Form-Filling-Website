@@ -1,10 +1,10 @@
 
 import { MainPage } from './list.js'
 
-import { UsersIcon, ClockIcon, PhoneIcon, LocationIcon, StarIcon, PeopleIcon, TickIcon, SheildIcon, MailIcon, } from "./components/Icons.jsx";
+import { UsersIcon, ClockIcon, StarIcon, PeopleIcon, TickIcon, SheildIcon, } from "./components/Icons.jsx";
 import NavigationPanel from './common/NavigationPanel.jsx';
 import Ready from './common/Ready.jsx';
-import Footer from './common/FooterPage.jsx';
+import FooterPage from './common/FooterPage.jsx';
 
 function Home() {
 
@@ -14,7 +14,7 @@ function Home() {
     <>
       <div className='flex flex-col justify-center margin-0 w-full text-gray-600  text-center '>
         {/* Heading */}
-        <NavigationPanel />
+        
         {/* Get Any Online Form Filled */}
 
         <div className='flex flex-col gap-3 justify-center pt-16 bg-linear-to-t to-sky-100 from-white p-[60px]'>
@@ -96,7 +96,7 @@ function Home() {
 
         <Ready heading="Ready to Get Started?" about="Join thousands of satisfied customers who trust us with their forms" button="Start Your Own Request" />
 
-        <Footer />
+        <FooterPage />
 
       </div >
 

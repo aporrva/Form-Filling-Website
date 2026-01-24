@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom"
 import { HamburgerIcon, UsersIcon } from "../components/Icons"
 import { MainPage } from "../list"
 
-const HeaderCenter = MainPage.Header.Center
+
 const HeaderRight = MainPage.Header.Right
 const HeaderLeft = MainPage.Header.Left
 
@@ -20,13 +21,16 @@ function NavigationPanel() {
                     <HamburgerIcon width='30px' strokeWidth='2' height='30px' />
                 </div>
                 <nav className='lg:flex hidden items-center  gap-6'>
-                    {
-                        HeaderCenter.map((point) => (<a> {point} </a>))
-                    }
+                    <Link to="/">Home</Link> 
+                    <Link to="/howitworks">HowItWorks</Link>  
+                    <Link to="/pricing">Pricing</Link>
+                    
+                    
+                    
                 </nav>
                 <div className='lg:flex hidden gap-4  items-center'>
-                    <a href=""> {HeaderRight[0]} </a>
-                    <button className='bg-sky-700 text-white  rounded-md p-2'>{HeaderRight[1]}</button>
+                    <Link to="/Dashboard"> Dashboard </Link>
+                    <button className='bg-sky-700 text-white  rounded-md p-2'>start</button>
 
                 </div>
             </div>
