@@ -25,7 +25,8 @@ function NavigationPanel() {
                     <Link to="/howitworks">HowItWorks</Link>
                     <Link to="/pricing">Pricing</Link>
                     <Link to="/FAQs">FAQs </Link>
-                    <Link to="/About">About </Link>
+                    <Link to="/about">About </Link>
+                    <Link to="/contact">Contact </Link>
                 </nav>
                 <div className='lg:flex hidden gap-4  items-center'>
                     <Link to="/Dashboard"> Dashboard </Link>

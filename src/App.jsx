@@ -9,6 +9,7 @@ import PricingPage from './components/PricingPage'
 import HowItWorksPage from './components/HowItWorksPage'
 import FAQs from './components/FAQs'
 import AboutPage from './components/AboutPage'
+import ContactPage from './components/ContactPage'
 
 function App() {
     return (
@@ -19,9 +20,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/FAQs" element={<FAQs />} />
-                <Route path="/About" element={<AboutPage />} />
+                <Route path="/about" element={<AboutPage />} />
                 <Route path="/pricing" element={<PricingPage />} />
                 <Route path="/howitworks" element={<HowItWorksPage />} />
+                <Route path="/contact" element={<ContactPage />} />
             </Routes>
         </BrowserRouter>
     )
