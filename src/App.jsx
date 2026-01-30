@@ -1,9 +1,14 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavigationPanel from './common/NavigationPanel'
-import Home from './Home'
-import HowItWorksPage from './HowItWorksPage'
-import PricingPage from './PricingPage'
+
+
+
+import Home from './components/Home'
+import PricingPage from './components/PricingPage'
+import HowItWorksPage from './components/HowItWorksPage'
+import FAQs from './components/FAQs'
+import AboutPage from './components/AboutPage'
 
 function App() {
     return (
@@ -13,10 +18,9 @@ function App() {
             {/* Routes */}
             <Routes>
                 <Route path="/" element={<Home />} />
-                
-                
+                <Route path="/FAQs" element={<FAQs />} />
+                <Route path="/About" element={<AboutPage />} />
                 <Route path="/pricing" element={<PricingPage />} />
-                
                 <Route path="/howitworks" element={<HowItWorksPage />} />
             </Routes>
         </BrowserRouter>

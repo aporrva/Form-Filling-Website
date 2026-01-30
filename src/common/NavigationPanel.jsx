@@ -21,17 +21,15 @@ function NavigationPanel() {
                     <HamburgerIcon width='30px' strokeWidth='2' height='30px' />
                 </div>
                 <nav className='lg:flex hidden items-center  gap-6'>
-                    <Link to="/">Home</Link> 
-                    <Link to="/howitworks">HowItWorks</Link>  
+                    <Link to="/">Home</Link>
+                    <Link to="/howitworks">HowItWorks</Link>
                     <Link to="/pricing">Pricing</Link>
-                    
-                    
-                    
+                    <Link to="/FAQs">FAQs </Link>
+                    <Link to="/About">About </Link>
                 </nav>
                 <div className='lg:flex hidden gap-4  items-center'>
                     <Link to="/Dashboard"> Dashboard </Link>
                     <button className='bg-sky-700 text-white  rounded-md p-2'>start</button>
-
                 </div>
             </div>
             <div className='w-full h-[2px] bg-gray-300'> </div>

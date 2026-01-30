@@ -1,9 +1,9 @@
 
-import FooterPage from './common/FooterPage'
-import NavigationPanel from './common/NavigationPanel'
-import Ready from './common/Ready'
-import { GreenTick, UsersIcon } from './components/Icons'
-import HeadingOfPage from './common/HeadingOfPage'
+import FooterPage from '../common/FooterPage'
+import NavigationPanel from '../common/NavigationPanel'
+import Ready from '../common/Ready'
+import { GreenTick, UsersIcon } from './Icons'
+import HeadingOfPage from '../common/HeadingOfPage'
 
 function HowItWorksPage() {
     return (

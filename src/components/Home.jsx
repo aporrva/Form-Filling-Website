@@ -1,10 +1,10 @@
 
-import { MainPage } from './list.js'
+import { MainPage } from '../list.js'
 
-import { UsersIcon, ClockIcon, StarIcon, PeopleIcon, TickIcon, SheildIcon, } from "./components/Icons.jsx";
-import NavigationPanel from './common/NavigationPanel.jsx';
-import Ready from './common/Ready.jsx';
-import FooterPage from './common/FooterPage.jsx';
+import { UsersIcon, ClockIcon, StarIcon, PeopleIcon, TickIcon, SheildIcon, } from "./Icons.jsx";
+import NavigationPanel from '../common/NavigationPanel.jsx';
+import Ready from '../common/Ready.jsx';
+import FooterPage from '../common/FooterPage.jsx';
 
 function Home() {
 
@@ -94,7 +94,7 @@ function Home() {
 
 
 
-        <Ready heading="Ready to Get Started?" about="Join thousands of satisfied customers who trust us with their forms" button="Start Your Own Request" />
+        <Ready  heading="Ready to Get Started?" about="Join thousands of satisfied customers who trust us with their forms" button="Start Your Own Request" />
 
         <FooterPage />
 
